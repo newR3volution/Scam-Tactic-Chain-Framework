@@ -1,0 +1,83 @@
+# Phishing Message Breakdown – Scam Tactic Chain™️ Mapping
+
+**Scam Text:**
+
+FedEx Ground®
+Rebooking of delivery requests
+
+You have a FedEx® package that needs to be signed for by you in person, and the delivery failed due to the inability to get in touch with you. To ensure the safe delivery of your package, please click on the link to reschedule your delivery. We apologize for any inconvenience and thank you for choosing FedEx®.
+
+https://fedex.4bwl.cyou/express
+
+Just reply with ‘Y’, then close and reopen the message to make the link work. If that doesn’t do it, copy the link and paste it straight into Safari.
+
+---
+
+## **Scam Tactic Chain Correlation**
+
+### **1. Initial Lure**
+> *"You have a FedEx® package..."*  
+> **Reasoning:** Creates curiosity and fear of loss using a vague situation. No tracking number, name, or address included.
+
+> *"...and the delivery failed due to the inability to get in touch with you."*  
+> **Reasoning:** Adds urgency and guilt—implies it's your fault for missing it, increasing pressure to act.
+
+---
+
+### **2. Trust Hook**
+> *"FedEx Ground®" / "Thank you for choosing FedEx®."*  
+> **Reasoning:** Brand impersonation to build trust. Formal tone attempts to mimic official communication.
+
+> *"Rebooking of delivery requests"*  
+> **Reasoning:** Pseudo-professional language to sound like an internal FedEx service or system.
+
+---
+
+### **3. Engagement Trigger**
+> *"...please click on the link to reschedule your delivery."*  
+> **Reasoning:** Directs the target to interact with the phishing payload. This is the “call to action.”
+
+> *"Just reply with 'Y', then close and reopen the message to make the link work."*  
+> **Reasoning:** Strange interaction pattern—adds pressure and makes the victim feel like they're doing something wrong if it doesn't work.
+
+> *"...copy the link and paste it straight into Safari."*  
+> **Reasoning:** Bypasses spam filters and pushes the user past natural suspicion. Unusual technical instruction is a red flag.
+
+---
+
+### **4. Payload Delivery**
+> *"https://fedex.4bwl.cyou/express"*  
+> **Reasoning:** A fraudulent link. The domain is not associated with FedEx and ends in `.cyou`, a common TLD used in scams.
+
+---
+
+### **5. Data Extraction** *(Implied – not visible in text)*
+> **Expected Outcome:** Victim clicks the link and is taken to a fake FedEx portal requesting:  
+> - Name  
+> - Address  
+> - Phone number  
+> - Delivery reschedule fee (credit card)  
+> - Or login credentials for an account
+
+---
+
+### **6. Exploitation** *(Not visible in message, but implied post-click)*
+> **Potential actions after data theft:**  
+> - Identity theft  
+> - Fraudulent purchases  
+> - Selling the harvested data on dark web markets  
+> - Follow-up scams targeting the same victim
+
+---
+
+### **7. Post-Exploitation** *(Not triggered in this message)*
+> This phish ends with the link, but follow-ups might include:  
+> - “Customer support” calls  
+> - Threats over undelivered items  
+> - Fake refund scams
+
+---
+
+## **Total STC Phases Touched: 6 of 7**
+
+This phishing message walks the victim through nearly the entire scam lifecycle, stopping just before post-exploitation. It’s a clear example of how much psychological manipulation and technical bait can be packed into just a few lines of text.
