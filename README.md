@@ -1,58 +1,87 @@
 # Scam-Tactic-Chain-Framework
-
 # Scam Tactic Chain™️ (STC)
-
-A step-by-step breakdown of how modern scams operate. This framework helps identify where a scam tactic sits within the larger manipulation flow and what red flags to watch for at each phase.
-
----
-
-## 1. Initial Lure
-**Purpose:** Capture attention and spark curiosity or fear.  
-**Examples:** Fake delivery notices, job offers, IRS warnings, sweepstakes messages.  
-**Red Flags:** Vague language, urgency, no personalization, emotional triggers.
+# Scam Tactic Chain (STC) Framework v2.0  
+*A Simplified Process for Understanding Scam Operations*  
+**Created by:** Graham Kelly
 
 ---
 
-## 2. Trust Hook
-**Purpose:** Build credibility by impersonating trusted institutions or using emotional manipulation.  
-**Examples:** Use of logos, “official” tone, impersonating companies like FedEx, banks, or recruiters.  
-**Red Flags:** Generic branding, overly formal language, mismatched contact info or visual cues.
+## Overview
+
+The Scam Tactic Chain (STC) is a streamlined framework for understanding how scams unfold. Instead of focusing on isolated red flags, it maps the **flow** of manipulation into four recognizable phases. This structure can be used to teach, analyze, and defend against social scams across text, email, job boards, and messaging platforms.
 
 ---
 
-## 3. Engagement Trigger
-**Purpose:** Force or encourage the target to take immediate action.  
-**Examples:** “Click the link,” “Reply with Y,” “Call this number,” “Download this document.”  
-**Red Flags:** Unusual user instructions, strange technical workarounds, urgency-based prompts.
+## The Four STC Phases
+
+### 1. Disruption  
+**Objective:** Capture attention and break the target’s routine.  
+**Examples:**  
+- Unsolicited job offers  
+- Suspicious alerts or password reset messages for things you are not logging into (like Google telling you to change your Netflix password)  
+- Fake promotions or prize notifications to things you have not entered
 
 ---
 
-## 4. Payload Delivery
-**Purpose:** Transition the user into the attacker’s control—via website, app, form, or malware.  
-**Examples:** Phishing websites, fake portals, infected attachments, spoofed apps.  
-**Red Flags:** Suspicious URLs (e.g., .cyou, .click), fake login pages, mismatched domains.
+### 2. Control  
+**Objective:** Shift influence to the scammer and suppress second-guessing.  
+**Examples:**  
+- Claims of authority or urgency  
+- Requests to keep the conversation private  
+- Emotional pressure like they may lose their job if you do not help or they love you so you should do this for them
 
 ---
 
-## 5. Data Extraction
-**Purpose:** Harvest sensitive info such as login credentials, payment data, or identity documents.  
-**Examples:** Fake shipping forms, credential harvesters, payment prompts, SSN or ID requests.  
-**Red Flags:** Requests for personal/banking data, typos on form pages, no HTTPS.
+### 3. Compliance  
+**Objective:** Get the victim to act.  
+**Examples:**  
+- Sending money or gift cards or a cryptocurrency 
+- Sharing login credentials or SSN or ID  
+- Downloading a file or app
 
 ---
 
-## 6. Exploitation
-**Purpose:** Use the stolen data for financial gain or access.  
-**Examples:** Account takeover, unauthorized purchases, gift card fraud, wire transfers.  
-**Red Flags:** Sudden account activity, password reset attempts, unauthorized charges.
+### 4. Aftermath  
+**Objective:** Conclude, escalate, or restart the cycle.  
+**Examples:**  
+- The scammer vanishes with funds or account takeover occurs  
+- Victim is contacted again for a “refund” or new opportunity/need  
+- Victim info is sold and reused in other scams
 
 ---
 
-## 7. Post-Exploitation Manipulation *(Optional)*  
-**Purpose:** Extend the scam’s life cycle through continued grooming, threats, or further scams.  
-**Examples:** Fake tech support calls, follow-up phishing, blackmail, romance grooming.  
-**Red Flags:** Repeat contact, threats of arrest or exposure, pressure to act quickly again.
+## Case Example: “TEMU Product Review Job” Scam
+
+**Message Text (excerpt):**  
+> "We came across your profile... offering a flexible part-time opportunity... daily salary ranges from $201 to $3000... contact us via WhatsApp..."
+
+**Sender Email:** `tnqcadznru@rambler.ru`
+
+--This is an actual phish text message I received for a job offer that promised daily commission of $201-$3000
+--Led to a whatsapp number to "get started" and came from an email domain in Russia.
 
 ---
 
-**Note:** Not all scams use every phase, but most use at least 4–5. Identifying the *phase* helps victims understand what’s happening and take targeted action to break the chain.p
+### STC Breakdown
+
+| Phase       | Behavior or Trigger                                                               | Red Flags                                                                                      |
+|-------------|-------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| Disruption  | Cold contact via iMessage with high-paying job claim                              | .ru email, vague recruiter identity, exaggerated salary claims                                |
+| Control     | Urged to contact via WhatsApp and given artificial eligibility rules              | No website, unverifiable company (DSL), private communication channel                        |
+| Compliance  | Victim expected to take action (predicted: send info, complete tasks, send funds) | Payment requests, identity submission, fake training or merchant platforms                   |
+| Aftermath   | Scammer may disappear or extend scam via a fake refund or “next phase”            | Ghosting, recycled contact, future targeting or fake bonuses                                |
+
+---
+
+## Use Cases
+
+- **Educators**: Teach the full arc of a scam to students, seniors, or job seekers.
+- **Investigators**: Break down scam cases using STC to reveal tactics and flow.
+- **Public Awareness**: Create simpler content to help communities recognize scams in progress.
+- **Security Teams**: Analyze social engineering threats and structure awareness campaigns.
+
+---
+
+## Closing Note
+
+Scams aren’t one-off messages—they’re structured operations. By learning the Scam Tactic Chain, we can begin to see patterns where confusion once lived and empower others to do the same.
