@@ -1,5 +1,7 @@
 # Scam-Tactic-Chain-Framework
 # Scam Tactic Chain™️ (STC)
+
+https://medium.com/@bluebirdintel/understanding-the-scam-tactic-chain-how-scammers-think-and-why-it-works-eaad08b2f620
 # Scam Tactic Chain (STC) Framework v2.0  
 *A Simplified Process for Understanding Scam Operations*  
 **Created by:** Graham Kelly
